@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.container {
+    background-color: bisque;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container button {
+    padding : 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
